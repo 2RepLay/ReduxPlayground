@@ -14,6 +14,19 @@
 		11F775B32A275E8C00ED1BDA /* ReduxPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775B22A275E8C00ED1BDA /* ReduxPlaygroundTests.swift */; };
 		11F775BD2A275E8C00ED1BDA /* ReduxPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775BC2A275E8C00ED1BDA /* ReduxPlaygroundUITests.swift */; };
 		11F775BF2A275E8C00ED1BDA /* ReduxPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775BE2A275E8C00ED1BDA /* ReduxPlaygroundUITestsLaunchTests.swift */; };
+		11F775CD2A27601700ED1BDA /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775CC2A27601700ED1BDA /* Store.swift */; };
+		11F775CF2A27612700ED1BDA /* ApplicationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775CE2A27612700ED1BDA /* ApplicationState.swift */; };
+		11F775D32A27615B00ED1BDA /* ApplicationAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775D22A27615B00ED1BDA /* ApplicationAction.swift */; };
+		11F775D52A27619000ED1BDA /* ApplicationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775D42A27619000ED1BDA /* ApplicationStore.swift */; };
+		11F775DD2A27661800ED1BDA /* Middleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775DC2A27661800ED1BDA /* Middleware.swift */; };
+		11F775DF2A2767AA00ED1BDA /* AnyMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775DE2A2767AA00ED1BDA /* AnyMiddleware.swift */; };
+		11F775E12A2768E300ED1BDA /* EchoMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775E02A2768E300ED1BDA /* EchoMiddleware.swift */; };
+		11F775E32A276A1B00ED1BDA /* MiddlewarePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775E22A276A1B00ED1BDA /* MiddlewarePipeline.swift */; };
+		11F775E52A276BBC00ED1BDA /* MiddlewareBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775E42A276BBC00ED1BDA /* MiddlewareBuilder.swift */; };
+		11F775E72A27738E00ED1BDA /* LogMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775E62A27738E00ED1BDA /* LogMiddleware.swift */; };
+		11F775E92A277A9E00ED1BDA /* LoginMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775E82A277A9E00ED1BDA /* LoginMiddleware.swift */; };
+		11F775EB2A277C6E00ED1BDA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775EA2A277C6E00ED1BDA /* LoginView.swift */; };
+		11F775ED2A277FF900ED1BDA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F775EC2A277FF900ED1BDA /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +57,19 @@
 		11F775B82A275E8C00ED1BDA /* ReduxPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReduxPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F775BC2A275E8C00ED1BDA /* ReduxPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxPlaygroundUITests.swift; sourceTree = "<group>"; };
 		11F775BE2A275E8C00ED1BDA /* ReduxPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReduxPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11F775CC2A27601700ED1BDA /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		11F775CE2A27612700ED1BDA /* ApplicationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationState.swift; sourceTree = "<group>"; };
+		11F775D22A27615B00ED1BDA /* ApplicationAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationAction.swift; sourceTree = "<group>"; };
+		11F775D42A27619000ED1BDA /* ApplicationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStore.swift; sourceTree = "<group>"; };
+		11F775DC2A27661800ED1BDA /* Middleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Middleware.swift; sourceTree = "<group>"; };
+		11F775DE2A2767AA00ED1BDA /* AnyMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyMiddleware.swift; sourceTree = "<group>"; };
+		11F775E02A2768E300ED1BDA /* EchoMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EchoMiddleware.swift; sourceTree = "<group>"; };
+		11F775E22A276A1B00ED1BDA /* MiddlewarePipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlewarePipeline.swift; sourceTree = "<group>"; };
+		11F775E42A276BBC00ED1BDA /* MiddlewareBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddlewareBuilder.swift; sourceTree = "<group>"; };
+		11F775E62A27738E00ED1BDA /* LogMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogMiddleware.swift; sourceTree = "<group>"; };
+		11F775E82A277A9E00ED1BDA /* LoginMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginMiddleware.swift; sourceTree = "<group>"; };
+		11F775EA2A277C6E00ED1BDA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		11F775EC2A277FF900ED1BDA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +120,10 @@
 		11F775A02A275E8700ED1BDA /* ReduxPlayground */ = {
 			isa = PBXGroup;
 			children = (
+				11F775DB2A27660A00ED1BDA /* Middleware */,
+				11F775D62A2761B400ED1BDA /* View */,
+				11F775D02A27614100ED1BDA /* State */,
+				11F775CB2A27600800ED1BDA /* Store */,
 				11F775A12A275E8700ED1BDA /* ReduxPlaygroundApp.swift */,
 				11F775A32A275E8700ED1BDA /* ContentView.swift */,
 				11F775A52A275E8B00ED1BDA /* Assets.xcassets */,
@@ -125,6 +155,47 @@
 				11F775BE2A275E8C00ED1BDA /* ReduxPlaygroundUITestsLaunchTests.swift */,
 			);
 			path = ReduxPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		11F775CB2A27600800ED1BDA /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				11F775D42A27619000ED1BDA /* ApplicationStore.swift */,
+				11F775CC2A27601700ED1BDA /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		11F775D02A27614100ED1BDA /* State */ = {
+			isa = PBXGroup;
+			children = (
+				11F775CE2A27612700ED1BDA /* ApplicationState.swift */,
+				11F775D22A27615B00ED1BDA /* ApplicationAction.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		11F775D62A2761B400ED1BDA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11F775EA2A277C6E00ED1BDA /* LoginView.swift */,
+				11F775EC2A277FF900ED1BDA /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11F775DB2A27660A00ED1BDA /* Middleware */ = {
+			isa = PBXGroup;
+			children = (
+				11F775DC2A27661800ED1BDA /* Middleware.swift */,
+				11F775DE2A2767AA00ED1BDA /* AnyMiddleware.swift */,
+				11F775E02A2768E300ED1BDA /* EchoMiddleware.swift */,
+				11F775E22A276A1B00ED1BDA /* MiddlewarePipeline.swift */,
+				11F775E42A276BBC00ED1BDA /* MiddlewareBuilder.swift */,
+				11F775E62A27738E00ED1BDA /* LogMiddleware.swift */,
+				11F775E82A277A9E00ED1BDA /* LoginMiddleware.swift */,
+			);
+			path = Middleware;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F775E32A276A1B00ED1BDA /* MiddlewarePipeline.swift in Sources */,
+				11F775CD2A27601700ED1BDA /* Store.swift in Sources */,
+				11F775DD2A27661800ED1BDA /* Middleware.swift in Sources */,
+				11F775ED2A277FF900ED1BDA /* HomeView.swift in Sources */,
 				11F775A42A275E8700ED1BDA /* ContentView.swift in Sources */,
+				11F775CF2A27612700ED1BDA /* ApplicationState.swift in Sources */,
+				11F775E12A2768E300ED1BDA /* EchoMiddleware.swift in Sources */,
+				11F775D32A27615B00ED1BDA /* ApplicationAction.swift in Sources */,
+				11F775D52A27619000ED1BDA /* ApplicationStore.swift in Sources */,
+				11F775EB2A277C6E00ED1BDA /* LoginView.swift in Sources */,
+				11F775E72A27738E00ED1BDA /* LogMiddleware.swift in Sources */,
 				11F775A22A275E8700ED1BDA /* ReduxPlaygroundApp.swift in Sources */,
+				11F775E92A277A9E00ED1BDA /* LoginMiddleware.swift in Sources */,
+				11F775DF2A2767AA00ED1BDA /* AnyMiddleware.swift in Sources */,
+				11F775E52A276BBC00ED1BDA /* MiddlewareBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

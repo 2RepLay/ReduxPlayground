@@ -8,14 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+	
+	@StateObject private var store = ApplicationStore { currentState, action in
+		var newState = currentState
+		switch action {
+		case .setAccessToken(let accessToken): newState.accessToken = accessToken
+		default: break
+		}
+		
+		return newState
+	} middleware: {
+		LogMiddleware()
+		LoginMiddleware()
+	}
+	
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+		VStack { 
+			if store.state.isLoggedIn {
+				HomeView()
+					.environmentObject(store)	
+			} else {
+				LoginView()
+					.environmentObject(store)
+			}
+		} 
     }
 }
 
